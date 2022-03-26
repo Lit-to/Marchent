@@ -17,13 +17,13 @@
 
 # 使用例
 1.無職を出す。<br />
-![sample1](/img/sample1.png)
+![sample1](/img/sample1.png)<br />
 2.シュルカーボックスにアイテムを入れる。<br />
-![sample2](/img/sample2.png)
+![sample2](/img/sample2.png)<br />
 3.``/execute as @e[type=minecraft:villager,sort=nearest,limit=1] at @s run function marchent:``を実行する。(正しい位置で実行できていればシュルカーの真上に黒曜石が出る。)<br />
-![sample3](/img/sample3.png)
+![sample3](/img/sample3.png)<br />
 4.ショップの完成！<br />
-![sample3](/img/sample4.png)
+![sample3](/img/sample4.png)<br />
 
 # 連絡先 / Contact
 [Twitter](https://twitter.com/Lit_to_)
