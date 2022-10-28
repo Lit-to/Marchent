@@ -6,13 +6,11 @@
 ##execute unless score $Move ArrayUtilInput = cost ArrayUtilInput run tellraw @a[tag=admin] [{"text":"チェストに空きがあります。"},{"score":{"objective": "ArrayUtilInput","name": "cost"}}]
 #execute if score $Move ArrayUtilInput = cost ArrayUtilInput run function marchent:change/lookup/loop
 #execute if score $Move ArrayUtilInput matches 0.. unless score $Move ArrayUtilInput = cost ArrayUtilInput run function marchent:change/lookup/fin
-data remove storage trader: cont.what
+#data remove storage trader: cont.what
 data modify storage trader: cont.what.up set from storage trader: cont.up[0]
 data modify storage trader: cont.what.cent set from storage trader: cont.cent[0]
 data modify storage trader: cont.what.down set from storage trader: cont.down[0]
-data remove storage trader: cont.up[0]
-data remove storage trader: cont.cent[0]
-data remove storage trader: cont.down[0]
+
 execute if data storage trader: {cont:{what:{up:{id:"minecraft:totem_of_undying",tag:{dummy:1b}}}}} run function marchent:change/lookup/fin
 execute if data storage trader: {cont:{up:[]}} run function marchent:change/lookup/fin
 
