@@ -16,6 +16,6 @@ execute run data remove storage trader: get.buyB.Slot
 function marchent:change/lookup/next
 
 #tellraw @a [{"nbt":"what","storage": "trader:"}]
-#tellraw @a [{"text": "||||||||||||"},{"score":{"objective": "ArrayUtilInput","name": "$Move"}},{"text": "+++"},{"score":{"objective": "ArrayUtilInput","name": "$Move"}},{"text": "|"},{"score":{"objective": "ArrayUtilInput","name": "cost"}},{"text": "~~~~"},{"nbt":"get","storage": "array_util:"}]
+#tellraw @a [{"text": "||||||||||||"},{"score":{"objective": "ArrayUtilInput","name": "$Move"}},{"text": "+++"},{"score":{"objective": "ArrayUtilInput","name": "$Move"}},{"text": "|"},{"score":{"objective": "ArrayUtilInput","name": "cost"}},{"text": "~~~~"},{"nbt":"get","storage": "chenbr_array_utility:"}]
 
 

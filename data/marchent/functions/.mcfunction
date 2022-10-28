@@ -1,5 +1,5 @@
 #> marchent:
-#function array_util:api/force_delete_cache
+#function chenbr_array_utility:api/force_delete_cache
 
 
 scoreboard objectives add trader dummy

@@ -15,13 +15,13 @@
 #以下登録処理
     #execute if score Slot trader matches 0..26 unless data storage trader: {what:{id:"minecraft:totem_of_undying",tag:{dummy:1b}}} run function marchent:change/lookup/barrier
 
-#data modify storage trader: what set from storage array_util: Array[-1] 
+#data modify storage trader: what set from storage chenbr_array_utility: Array[-1] 
 #execute if score Slot trader matches 18..26 if data storage trader: {what:{id:"minecraft:totem_of_undying",tag:{dummy:1b}}} run data modify storage trader: what set value #{id:"minecraft:air"}
 #
 #execute if score Slot trader matches 0..8 unless data storage trader: {what:{id:"minecraft:totem_of_undying",tag:{dummy:1b}}} run function marchent:change/lookup/totem_of_undying
 #execute if score Slot trader matches 18..26 run function marchent:change/lookup/totem_of_undying
 #
-##tellraw @a [{"nbt":"Array[-1]","storage": "array_util:"},{"text":"<<<<<<<<<<"}]
+##tellraw @a [{"nbt":"Array[-1]","storage": "chenbr_array_utility:"},{"text":"<<<<<<<<<<"}]
 #
 #scoreboard players add Slot trader 9
 

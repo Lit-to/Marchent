@@ -6,7 +6,7 @@ data modify storage trader: temp[-1].maxUses set value 25565
 data remove storage trader: get
 data remove storage trader: what
 data remove storage trader: whe
-#function array_util:api/revert
+#function chenbr_array_utility:api/revert
 #execute if score Slot trader matches 35 run data modify entity @s Offers.Recipes set from storage trader: temp
 function marchent:change/lookup/check
 

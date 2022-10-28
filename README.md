@@ -5,7 +5,6 @@
 ## [v1.0以前のREADMEはこちら](README_old.md)
 ### 前回との変更点
 -   依存モジュールの削除
--   処理の軽量化
 
 ## 必要環境 / Recuired
 - Minecraft JavaEdition ver.1.16~
