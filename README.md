@@ -1,10 +1,14 @@
 
 # 村人交易メーカー / Marchent
 シュルカーボックスの内容から村人にショップを作成するデータパック <br />
+2022-10-28 12:45:51
+## [v1.0以前のREADMEはこちら](README_old.md)
+### 前回との変更点
+-   依存モジュールの削除
+-   処理の軽量化
 
 ## 必要環境 / Recuired
 - Minecraft JavaEdition ver.1.16~
-- [MCCMD-ArrayUtility ちぇん氏作成](https://github.com/ChenCMD/MCCMD-ArrayUtility)
 
 # 使い方 / How to Use
 1. 村人をスポーンさせる。(``/function marchent:manekin/[職業]``。職業には[村人系nbtデータタグの職業一覧:profession](https://minecraftjapan.miraheze.org/wiki/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BF%E3%82%B0/%E3%82%A8%E3%83%B3%E3%83%86%E3%82%A3%E3%83%86%E3%82%A3#%E6%9D%91%E4%BA%BA%E7%B3%BB%E5%85%B1%E9%80%9A)と同じものを入力できます。)<br/>

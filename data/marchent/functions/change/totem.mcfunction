@@ -1,3 +1,4 @@
+#> marchent:change/totem
 clone ~ ~-3 ~ ~ ~-3 ~ ~ ~-2 ~ 
 loot insert ~ ~-3 ~ loot marchent:totem
 loot insert ~ ~-3 ~ loot marchent:totem
